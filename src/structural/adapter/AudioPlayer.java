@@ -10,7 +10,7 @@ public class AudioPlayer implements MediaPlayer {
 			MediaAdapter mediaAdapter = new MediaAdapter(audioType);
 			mediaAdapter.play(audioType, fileName);
 		}else {
-			System.out.println("∏Ò Ω”–ŒÛ");
+			System.out.println("The format is wrong!");
 		}
 	}
 
